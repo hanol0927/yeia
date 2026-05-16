@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/TestRoot3/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "예이아",
+    "description": "예이아 1.21.4",
+    "icon": "https://hanol0927.github.io/yeia/servers/yeia-1.21.4/Icon.png",
+    "address": "Yeadiaybhy.mcv.kr",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "fabric": {
+    "version": "0.19.2"
+  },
+  "untrackedFiles": []
+}

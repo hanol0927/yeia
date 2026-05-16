@@ -1,0 +1,382 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "yeia-1.21.4",
+      "name": "예이아",
+      "description": "예이아 1.21.4",
+      "icon": "https://hanol0927.github.io/yeia/servers/yeia-1.21.4/Icon.png",
+      "version": "1.0.0",
+      "address": "Yeadiaybhy.mcv.kr",
+      "minecraftVersion": "1.21.4",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.19.2",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1968930,
+            "MD5": "d692407a67129e913b4210218edebb20",
+            "url": "https://hanol0927.github.io/yeia/repo/lib/net/fabricmc/fabric-loader/0.19.2/fabric-loader-0.19.2.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.4-fabric-0.19.2",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2847,
+                "MD5": "6afa7df2464f89e5fda4f78e187b5ac0",
+                "url": "https://hanol0927.github.io/yeia/repo/versions/1.21.4-fabric-0.19.2/1.21.4-fabric-0.19.2.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.9",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126122,
+                "MD5": "6d1dd0482c03a6dc1807d9d004456021",
+                "url": "https://hanol0927.github.io/yeia/repo/lib/org/ow2/asm/asm/9.9/asm-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.9",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35149,
+                "MD5": "f07383cfbd50f097558341a03b8871e1",
+                "url": "https://hanol0927.github.io/yeia/repo/lib/org/ow2/asm/asm-analysis/9.9/asm-analysis-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.9",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74348,
+                "MD5": "8103b3de8f48fb4c7f97efdaa46ce809",
+                "url": "https://hanol0927.github.io/yeia/repo/lib/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.9",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51947,
+                "MD5": "912eeaba1a63d574ffc66c651c7c6725",
+                "url": "https://hanol0927.github.io/yeia/repo/lib/org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.9",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94565,
+                "MD5": "ef5e90e736cd09bc407c1d46a3faba0f",
+                "url": "https://hanol0927.github.io/yeia/repo/lib/org/ow2/asm/asm-util/9.9/asm-util-9.9.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.17.2+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1540039,
+                "MD5": "4b6b96074976cc7aa096b9e569ca623e",
+                "url": "https://hanol0927.github.io/yeia/repo/lib/net/fabricmc/sponge-mixin/0.17.2+mixin.0.8.7/sponge-mixin-0.17.2+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.4",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 701826,
+                "MD5": "d0f4187a62328d4a95f3428434efbd48",
+                "url": "https://hanol0927.github.io/yeia/repo/lib/net/fabricmc/intermediary/1.21.4/intermediary-1.21.4.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "team.creative:ambientsounds:6.1.7@jar",
+          "name": "AmbientSounds",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 84868061,
+            "url": "https://hanol0927.github.io/yeia/servers/yeia-1.21.4/fabricmods/required/AmbientSounds_FABRIC_v6.1.7_mc1.21.4.jar",
+            "MD5": "034039224ef21c87e86328adcfb35d3d"
+          }
+        },
+        {
+          "id": "team.creative:creativecore:2.12.35@jar",
+          "name": "CreativeCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1201558,
+            "url": "https://hanol0927.github.io/yeia/servers/yeia-1.21.4/fabricmods/required/CreativeCore_FABRIC_v2.12.35_mc1.21.4.jar",
+            "MD5": "6711d5bce347c577c3368c9643b12f13"
+          }
+        },
+        {
+          "id": "io.github.kosmx.emotes:emotecraft:2.5.8@jar",
+          "name": "Emotecraft",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1259819,
+            "url": "https://hanol0927.github.io/yeia/servers/yeia-1.21.4/fabricmods/required/emotecraft-fabric-for-MC1.21.4-2.5.8.jar",
+            "MD5": "ecbcffd1aa9d83847e00da62fc45d9b3"
+          }
+        },
+        {
+          "id": "dev.ultimatchamp.enhancedtooltips.loaders:enhancedtooltips:1.9.1+fabric.1.21.4@jar",
+          "name": "EnhancedTooltips",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 223072,
+            "url": "https://hanol0927.github.io/yeia/servers/yeia-1.21.4/fabricmods/required/EnhancedTooltips-1.9.1+fabric.1.21.4.jar",
+            "MD5": "ffb0c10c0a18f7008d981f702d052de2"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.119.4+1.21.4@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2149128,
+            "url": "https://hanol0927.github.io/yeia/servers/yeia-1.21.4/fabricmods/required/fabric-api-0.119.4+1.21.4.jar",
+            "MD5": "128a8d042180e7c92567342e21a21a6d"
+          }
+        },
+        {
+          "id": "dev.tr7zw:firstperson:2.6.3@jar",
+          "name": "FirstPerson",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1597092,
+            "url": "https://hanol0927.github.io/yeia/servers/yeia-1.21.4/fabricmods/required/firstperson-fabric-2.6.3-mc1.21.4.jar",
+            "MD5": "66c17a2171921ecd6edf9fd4e5b74c9d"
+          }
+        },
+        {
+          "id": "fuzs.forgeconfigapiport.fabric.impl:forgeconfigapiport:21.4.3@jar",
+          "name": "Forge Config API Port",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 644183,
+            "url": "https://hanol0927.github.io/yeia/servers/yeia-1.21.4/fabricmods/required/ForgeConfigAPIPort-v21.4.3-1.21.4-Fabric.jar",
+            "MD5": "dbda05e27f5b2710d991196c66261df1"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.8+mc1.21.4@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2682702,
+            "url": "https://hanol0927.github.io/yeia/servers/yeia-1.21.4/fabricmods/required/iris-fabric-1.8.8+mc1.21.4.jar",
+            "MD5": "59d373e4874efbcb8fb426bdefa588d9"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:1.21.4-6.0.0-beta.47@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3514384,
+            "url": "https://hanol0927.github.io/yeia/servers/yeia-1.21.4/fabricmods/required/journeymap-fabric-1.21.4-6.0.0-beta.47.jar",
+            "MD5": "3893e727701bc66b4f3dbd80a434282d"
+          }
+        },
+        {
+          "id": "com.hyfata.najoan:koreanpatch:1.9.5+mc1.21.3@jar",
+          "name": "Korean Patch",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 595769,
+            "url": "https://hanol0927.github.io/yeia/servers/yeia-1.21.4/fabricmods/required/koreanpatch-fabric-1.9.5+mc1.21.3.jar",
+            "MD5": "f5c52ca25f04821fd25a205fa870e1bf"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:lithium:0.15.3+mc1.21.4@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 797555,
+            "url": "https://hanol0927.github.io/yeia/servers/yeia-1.21.4/fabricmods/required/lithium-fabric-0.15.3+mc1.21.4.jar",
+            "MD5": "7a3a807eed9c4868fbe14cecd8bb082d"
+          }
+        },
+        {
+          "id": "su.plo.voice:plasmovoice:2.1.9@jar",
+          "name": "Plasmo Voice",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 12262201,
+            "url": "https://hanol0927.github.io/yeia/servers/yeia-1.21.4/fabricmods/required/plasmovoice-fabric-1.21.4-2.1.9.jar",
+            "MD5": "f2110c9358f3e5886246bf5030e10dd6"
+          }
+        },
+        {
+          "id": "generated.fabricmod:reeses-sodium-options:1.8.3+mc1.21.4@jar",
+          "name": "Reese's Sodium Options",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 81067,
+            "url": "https://hanol0927.github.io/yeia/servers/yeia-1.21.4/fabricmods/required/reeses-sodium-options-fabric-1.8.3+mc1.21.4.jar",
+            "MD5": "85f69ebd3bde2559ee53c01daa8e361e"
+          }
+        },
+        {
+          "id": "generated.fabricmod:sodium-extra:0.6.1+mc1.21.4@jar",
+          "name": "Sodium Extra",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 360180,
+            "url": "https://hanol0927.github.io/yeia/servers/yeia-1.21.4/fabricmods/required/sodium-extra-fabric-0.6.1+mc1.21.4.jar",
+            "MD5": "4d43b252c771523c6e0a219e9eadd63b"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.13+mc1.21.4@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1306799,
+            "url": "https://hanol0927.github.io/yeia/servers/yeia-1.21.4/fabricmods/required/sodium-fabric-0.6.13+mc1.21.4.jar",
+            "MD5": "28922a78d1876ee062e3265f10abcc46"
+          }
+        },
+        {
+          "id": "kr.shihyeon:tabnametag:0.1.0+mc1.21.2@jar",
+          "name": "TabNameTag",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 11004,
+            "url": "https://hanol0927.github.io/yeia/servers/yeia-1.21.4/fabricmods/required/tabnametag-fabric-0.1.0+mc1.21.2.jar",
+            "MD5": "ccd2d08433133ca66ca082dd459a003e"
+          }
+        },
+        {
+          "id": "me.zipestudio.talkingheads.entrypoint:talkingheads:1.1.0+1.21.4+fabric@jar",
+          "name": "Talking Heads",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 287489,
+            "url": "https://hanol0927.github.io/yeia/servers/yeia-1.21.4/fabricmods/required/TalkingHeads-1.1.0+1.21.4+fabric.jar",
+            "MD5": "f76ea73c24d486d9e961bf3fbb15e503"
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.8.2+1.21.4-fabric@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1130824,
+            "url": "https://hanol0927.github.io/yeia/servers/yeia-1.21.4/fabricmods/required/yet_another_config_lib_v3-3.8.2+1.21.4-fabric.jar",
+            "MD5": "892f173cfd0619203438efcc9dcf0014"
+          }
+        },
+        {
+          "id": "YHnickname.yhnicknamemod:yhnicknamemod:1.0-SNAPSHOT@jar",
+          "name": "YHnicknamemod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6393134,
+            "url": "https://hanol0927.github.io/yeia/servers/yeia-1.21.4/fabricmods/required/YHnicknamemod-1.0-SNAPSHOT.jar",
+            "MD5": "1e2615d10e7fae98ba67932a07fbefa0"
+          }
+        },
+        {
+          "id": "com.yzdiaroulette:yzdiaroulette_client:1.0.0@jar",
+          "name": "YZ Dia Roulette Client",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3566928,
+            "url": "https://hanol0927.github.io/yeia/servers/yeia-1.21.4/fabricmods/required/yz-dia-roulette-client-1.0.0.jar",
+            "MD5": "251951faf110cd9680eaf17bfac213f7"
+          }
+        },
+        {
+          "id": "tast.ef:ef:1.0-SNAPSHOT@jar",
+          "name": "Ef",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 16890,
+            "url": "https://hanol0927.github.io/yeia/servers/yeia-1.21.4/fabricmods/required/YZB_PickupDisplay.jar",
+            "MD5": "cc835c56ea54621f8d7938cfdfd92081"
+          }
+        },
+        {
+          "id": "com.yzb.augmentation:yzb_augmentation_client:1.0.0@jar",
+          "name": "YZB Augmentation Client",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 135352,
+            "url": "https://hanol0927.github.io/yeia/servers/yeia-1.21.4/fabricmods/required/yzb-augmentation-client-1.0.0.jar",
+            "MD5": "acf4cdaa24e5371ee632dfe02aa837b9"
+          }
+        },
+        {
+          "id": "YZBnickname.yzbnicknamemod:yzbnicknamemod:1.0-SNAPSHOT@jar",
+          "name": "YZBnicknamemod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 18638219,
+            "url": "https://hanol0927.github.io/yeia/servers/yeia-1.21.4/fabricmods/required/YZBnicknamemod-1.0-SNAPSHOT.jar",
+            "MD5": "49a39efeb4dfe19ad246741adcdde9d0"
+          }
+        },
+        {
+          "id": "yzshop:yzshopui:1.0.0+1.21.4@jar",
+          "name": "YZShop Fabric UI",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 118863,
+            "url": "https://hanol0927.github.io/yeia/servers/yeia-1.21.4/fabricmods/required/yzshop-fabric-ui-1.0.0+1.21.4.jar",
+            "MD5": "cfe807ae844384b0b2a2a9af92d369d1"
+          }
+        },
+        {
+          "id": "com.yz.streamerchat:yzstreamerchathud:1.0.0@jar",
+          "name": "YZStreamerChatHUD",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 74371,
+            "url": "https://hanol0927.github.io/yeia/servers/yeia-1.21.4/fabricmods/required/yzstreamerchathud-1.0.0.jar",
+            "MD5": "c1c103d9349a4ab92b8a2937f2cbfb28"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5694,
+            "url": "https://hanol0927.github.io/yeia/servers/yeia-1.21.4/files/options.txt",
+            "MD5": "26c1f4b429ba54d0da8b6082f362f33a",
+            "path": "options.txt"
+          }
+        }
+      ]
+    }
+  ]
+}
